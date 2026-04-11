@@ -19,7 +19,7 @@
       font-family: Arial;
 
       /* 背景图 */
-      background: url('123456.jpg') no-repeat center center;
+      background: url('styuj.png') no-repeat center center;
       background-size: cover;
     }
 
