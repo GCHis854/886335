@@ -1,1 +1,90 @@
-# 886335
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- ✅ 手机自适应关键 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>百度网盘</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial;
+
+      /* 背景图 */
+      background: url('123456.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+    .box {
+      text-align: center;
+      background: rgba(0,0,0,0.5);
+      padding: 30px;
+      border-radius: 15px;
+      color: white;
+
+      /* ✅ 手机适配宽度 */
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+
+    /* ✅ 更小屏幕优化 */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+      .btn {
+        font-size: 14px;
+        padding: 10px 16px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>春季限时抽取哪吒，图卡盟-沙丘之主</h1>
+  <p>更多皮肤等你来体验！</p>
+
+  <a class="btn" href="https://github.com/886335/apk-download/raw/main/dac5yretstgn.apk">
+    下载和平助手
+  </a>
+</div>
+
+</body>
+</html>
